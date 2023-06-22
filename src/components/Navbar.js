@@ -24,7 +24,7 @@ function Navbar() {
       <Flex direction={["row"]} gap={[2, 4, 6]}>
         <a
           href="https://github.com/catplotlib/GitMLIssues-Client/blob/main/AddAProject.md"
-          _target="blank"
+          target="_blank"
         >
           <Button
             colorScheme="purple"
@@ -36,14 +36,14 @@ function Navbar() {
           </Button>
         </a>
 
-        <Button
+        {/* <Button
           colorScheme="purple"
           size={["xs", "sm"]}
           bg="#2C1D64"
           color="#CAC1DA"
         >
           Developers
-        </Button>
+        </Button> */}
       </Flex>
     </Flex>
   );
