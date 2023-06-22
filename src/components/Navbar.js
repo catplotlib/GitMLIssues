@@ -22,17 +22,23 @@ function Navbar() {
         GitMLIssues
       </Text>
       <Flex direction={["row"]} gap={[2, 4, 6]}>
-        <Button
-          colorScheme="purple"
-          size={["sm", "md", "lg"]}
-          bg="#2C1D64"
-          color="#CAC1DA"
+        <a
+          href="https://github.com/catplotlib/GitMLIssues-Client/blob/main/AddAProject.md"
+          _target="blank"
         >
-          Add a Project
-        </Button>
+          <Button
+            colorScheme="purple"
+            size={["xs", "sm"]}
+            bg="#2C1D64"
+            color="#CAC1DA"
+          >
+            Add a Project
+          </Button>
+        </a>
+
         <Button
           colorScheme="purple"
-          size={["sm", "md", "lg"]}
+          size={["xs", "sm"]}
           bg="#2C1D64"
           color="#CAC1DA"
         >
