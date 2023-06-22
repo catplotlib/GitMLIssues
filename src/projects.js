@@ -1,0 +1,23 @@
+module.exports = [
+    {
+      "owner": "pytorch",
+      "repo": "pytorch"
+    },
+    {
+      "owner": "tensorflow",
+      "repo": "tensorflow"
+    },
+    {
+      "owner": "scikit-learn",
+      "repo": "scikit-learn"
+    },
+    {
+      "owner": "magenta",
+      "repo": "magenta"
+    },
+    {
+      "owner": "facebookresearch",
+      "repo": "ParlAI"
+    }
+  ]
+  
