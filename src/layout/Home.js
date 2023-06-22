@@ -17,8 +17,6 @@ function Home() {
       .then((data) => setProjects(data));
   }, []);
 
-  
-
   return (
     <Flex direction="column">
       <Navbar />
