@@ -13,7 +13,7 @@ function Issues({ issues }) {
   };
 
   return (
-    <Flex direction="column">
+    <Flex direction="column" ml={[4, 0]}>
       <Flex display={{ base: "None", md: "flex" }}>
         <Issue issue={headerIssue} />
       </Flex>
