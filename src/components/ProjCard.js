@@ -10,7 +10,7 @@ function ProjectHeader({ repository }) {
       w="80%"
       fontSize="xl"
     >
-      <Text color="#CAC1DA">{repository}</Text>
+      <Text  fontFamily="Josefin Sans"color="#CAC1DA">{repository}</Text>
     </Flex>
   );
 }
@@ -33,11 +33,11 @@ function ProjectFooter({ owner, lang }) {
         mt={1}
         borderRadius="5px"
       >
-        <Text color="#CAC1DA" fontSize="sm">
+        <Text  fontFamily="Josefin Sans"color="#CAC1DA" fontSize="sm">
           {owner}
         </Text>
       </Flex>
-      <Text color="#CAC1DA" fontSize="sm">
+      <Text  fontFamily="Josefin Sans"color="#CAC1DA" fontSize="sm">
         {lang}
       </Text>
     </Flex>
@@ -67,7 +67,7 @@ function ProjCard({ key, project }) {
       }}
     >
       <ProjectHeader repository={project.repository} />
-      <Text fontSize="sm" color="#CAC1DA" textAlign="center">
+      <Text  fontSize="sm" color="#CAC1DA" textAlign="center">
         {project.desc}
       </Text>
       <ProjectFooter owner={project.owner} lang={project.lang} />

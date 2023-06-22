@@ -15,7 +15,10 @@ function Projects({projects}) {
       h="100vh"
       overflowY="auto" // Added this line
     >
-      <Text color="#CAC1DA" fontSize="xl" mt={8}>
+      <Text color="#CAC1DA" fontSize="xl" mt={8} 
+              fontFamily="Josefin Sans"
+      
+      >
         Projects
       </Text>
       {projects.map((project) => (
