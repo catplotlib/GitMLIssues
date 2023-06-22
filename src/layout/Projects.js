@@ -12,6 +12,7 @@ function Projects({projects}) {
       alignItems="center"
       direction="column"
       gap={8}
+      h="100vh"
       overflowY="auto" // Added this line
     >
       <Text color="#CAC1DA" fontSize="xl" mt={8}>

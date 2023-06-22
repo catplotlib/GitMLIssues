@@ -15,15 +15,16 @@ function IssueText({ text, type, isHeader }) {
           borderRadius={6}
           marginRight={2}
         >
-          <Text
-            fontFamily="Josefin Sans"
-            color="#CAC1DA"
-            fontSize="auto"
-            borderBottom={{ base: "0.5px solid #2C1D64", md: "None" }}
-            px={[2, 0]}
-          >
-            {label.trim()}
-          </Text>
+          <Box overflowX="auto" minWidth="0">
+            <Text
+              fontFamily="Josefin Sans"
+              color="#CAC1DA"
+              fontSize={["sm", "md"]}
+              px={[2, 0]}
+            >
+              {label.trim()}
+            </Text>
+          </Box>
         </Flex>
       ))}
     </Flex>
