@@ -51,10 +51,8 @@ function ProjCard({ key, project }) {
 
   return (
     <Flex
-      minH="20vh"
       h="auto"
-      maxH="25vh"
-      w="20vw"
+      maxW="20vw"
       bg="#2C1D64"
       justifyContent="space-between"
       alignItems="center"
