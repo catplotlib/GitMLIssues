@@ -2,7 +2,7 @@
 
 ## Overview
 
-GitMLIssues-Client is a web application designed to track machine learning issues from various open source projects on GitHub. It provides an accessible and organized interface for developers interested in contributing to machine learning projects. The backend of GitMLIssues-Client is built with Django.
+GitMLIssues-Client is a web application designed to track machine learning issues from various open source projects on GitHub. It auto-fetches the latest issues everyday and provides an accessible and organized interface for developers interested in contributing to machine learning projects. The backend of GitMLIssues-Client is built with Django.
 
 Live Demo: https://gitmlissues.netlify.app/
 

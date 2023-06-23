@@ -14,10 +14,12 @@ function Issue({ key, issue }) {
       direction={["column", "row"]}
       py={[4, 0]}
       px={8}
-      _hover={{
-        transform: "scale(1.02)",
-        transition: "transform 0.3s ease-in-out",
-      }}
+      _hover={
+        issue.isHeader && {
+          transform: "scale(1.02)",
+          transition: "transform 0.3s ease-in-out",
+        }
+      }
       cursor={"pointer"}
       onClick={() => window.open(issue.url, "_blank")} // Added this line
     >
