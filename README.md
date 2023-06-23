@@ -6,6 +6,13 @@ GitMLIssues-Client is a web application designed to track machine learning issue
 
 Live Demo: https://gitmlissues.netlify.app/
 
+## Libraries Used
+- **React**: The primary JavaScript library used for the client-side logic.
+- **Fetch**: A simple HTTP library for JavaScript, used to make requests to the GitMLIssues-Server.
+- **Chakra UI**: A simple, modular and accessible component library that gives you the building blocks you need to build your React applications.   
+
+
+
 ## Features
 
 - Browse open machine learning issues from a wide array of open source projects.
