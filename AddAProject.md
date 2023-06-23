@@ -1,4 +1,4 @@
-## To add a machine learning project into this project, follow these steps:
+## To add a machine learning project into this GitMLIssues, follow these steps:
 
 - Clone the repository to your local environment.
 - Insert your machine learning project details in the src/projects.js file.
