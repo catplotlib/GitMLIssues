@@ -19,7 +19,7 @@ function IssueText({ text, type, isHeader }) {
             <Text
               fontFamily="Josefin Sans"
               color="#CAC1DA"
-              fontSize={["sm", "auto"]}
+              fontSize={["xs", "sm"]}
               px={[2, 0]}
             >
               {label.trim()}
