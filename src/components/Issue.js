@@ -15,13 +15,20 @@ function Issue({ key, issue }) {
       py={[4, 0]}
       px={8}
       _hover={
-        issue.isHeader && {
+        !issue.isHeader && {
           transform: "scale(1.02)",
           transition: "transform 0.3s ease-in-out",
         }
       }
       cursor={"pointer"}
-      onClick={() => window.open(issue.url, "_blank")} // Added this line
+      onClick={() => {
+        // If `isHeader` is true, return immediately.
+        if (issue.isHeader) {
+          return;
+        }
+        // Otherwise, open the issue URL in a new tab.
+        window.open(issue.url, "_blank");
+      }}
     >
       <IssueText text={issue.repository} />
       <IssueText text={issue.title} />
