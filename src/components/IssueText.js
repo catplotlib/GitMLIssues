@@ -3,7 +3,6 @@ import { Flex, Box, Text } from "@chakra-ui/react";
 
 function IssueText({ text, type, isHeader }) {
   const labels = type === "label" ? text.split(",") : [text];
-
   return (
     <Flex width="100%" wrap="wrap" gap={2} py={2}>
       {labels.slice(0, 3).map((label, index) => (
