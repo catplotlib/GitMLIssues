@@ -11,9 +11,9 @@ function App() {
 
   if (isLoading) {
     return (
-      // <Center height="100vh">
-      //   <Spinner size="xl" />
-      // </Center>
+      <Center height="100vh">
+        <Spinner size="xl" />
+      </Center>
     ); // Spinner centered on the screen
   }
 
