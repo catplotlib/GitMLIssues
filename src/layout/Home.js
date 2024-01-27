@@ -11,12 +11,12 @@ function Home() {
   useEffect(() => {
     fetch("https://catplotlib.pythonanywhere.com/api/issues/")
       .then((response) => response.json())
-      .then((data) => setIssues(data));
+      .then((data) => setIssues(data))
+    .then(() => setLoading(false));
 
     fetch("https://catplotlib.pythonanywhere.com/api/projects/")
       .then((response) => response.json())
-      .then((data) => setProjects(data))
-      .then(() => setLoading(false));
+      .then((data) => setProjects(data));
   }, []);
 
   return (
